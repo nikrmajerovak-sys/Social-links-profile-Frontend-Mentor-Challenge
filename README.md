@@ -25,6 +25,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/nikrmajerovak-sys/Social-links-profile-Frontend-Mentor-Challenge)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/nikrmajerovak-sys/Social-links-profile-Frontend-Mentor-Challenge
+- Live Site URL: [(https://nikrmajerovak-sys.github.io/Social-links-profile-Frontend-Mentor-Challenge/)]
 
