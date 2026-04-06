@@ -1,0 +1,99 @@
+:root {
+    --accent: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --background: hsl(0, 0%, 8%);
+    --card-background: hsl(0, 3%, 13%);
+    --btn-background: hsl(0, 1%, 25%);
+    --bold: 700;
+    --semi-bold: 600;
+    --normal: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--background);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    background-color: var(--card-background);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 300px;
+    justify-items: center;
+    align-items: center;
+    padding: 3rem 1rem 2rem;
+    border-radius: 20px;
+}
+
+.avatar img {
+    border-radius: 50px;
+    width: 100px;
+}
+
+.author {
+    text-align: center;
+}
+
+.name {
+font-weight: var(--semi-bold);
+}
+
+.address {
+    color: var(--accent);
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 90%;
+}
+
+.buttons button {
+    display: block;
+    height: 2.8rem;
+    background-color: var(--btn-background);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    font-weight: var(--semi-bold);
+}
+
+.buttons button:hover {
+    background-color: var(--accent);
+    cursor: pointer;
+}
+
+.buttons button:active {
+    background-color: var(--background);
+    transform: scale(0.97);
+}
+
+.buttons button:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--accent);
+}
